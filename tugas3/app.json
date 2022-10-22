@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "tugas3pam",
+    "slug": "tugas3pam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "id.MAIProduction.tugas3pam"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
